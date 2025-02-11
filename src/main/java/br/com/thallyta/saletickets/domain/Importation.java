@@ -1,4 +1,4 @@
-package br.com.thallyta.saletickets.models;
+package br.com.thallyta.saletickets.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -24,4 +24,5 @@ public class Importation {
     private String typeTicket;
     private Double value;
     private LocalDateTime importationDate;
+    private Double administrationFee;
 }
