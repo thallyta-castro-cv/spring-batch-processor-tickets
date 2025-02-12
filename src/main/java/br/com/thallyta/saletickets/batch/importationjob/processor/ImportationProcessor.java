@@ -1,4 +1,4 @@
-package br.com.thallyta.saletickets.batch.job.processor;
+package br.com.thallyta.saletickets.batch.importationjob.processor;
 
 import br.com.thallyta.saletickets.domain.Importation;
 import org.springframework.batch.item.ItemProcessor;

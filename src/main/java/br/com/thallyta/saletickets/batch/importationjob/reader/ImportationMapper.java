@@ -1,10 +1,9 @@
-package br.com.thallyta.saletickets.batch.job.reader;
+package br.com.thallyta.saletickets.batch.importationjob.reader;
 
 import br.com.thallyta.saletickets.domain.Importation;
 import org.springframework.batch.item.file.mapping.FieldSetMapper;
 import org.springframework.batch.item.file.transform.FieldSet;
 
-import java.net.BindException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
