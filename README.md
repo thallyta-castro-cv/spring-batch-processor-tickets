@@ -1,6 +1,7 @@
 # Spring Batch Processor - Tickets
 
-Este projeto é uma aplicação desenvolvida com **Spring Batch** para processar arquivos **CSV**, converter os dados em objetos e armazená-los em um banco de dados.
+Este projeto é uma microserviço worker que faz parte do projeto Sale Tickets que é um site onde há gerenciamento de eventos e venda de ingressos. Esta aplicação foi desenvolvida com **Spring Batch** 
+para processar arquivos **CSV**, converter os dados em objetos e armazená-los em um banco de dados.
 
 ## Funcionalidades
 
